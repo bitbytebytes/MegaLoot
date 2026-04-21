@@ -1,0 +1,13 @@
+[mod]
+
+name="Mega Loot"
+id="mega-loot"
+version="1.0.0"
+
+[autoload]
+
+LessLoot="res://mods/MegaLoot/Main.gd"
+
+[updates]
+
+modworkshop=56257
