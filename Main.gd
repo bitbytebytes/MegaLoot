@@ -10,7 +10,7 @@ var simulation_script: Script
 func _ready():
     _setup_mod()
     get_tree().scene_changed.connect(_on_scene_change)
-    log_message("Startup complete")
+    log_message("Startup completed")
 
 
 func _setup_mod():
@@ -65,4 +65,4 @@ func _update_loot_simulation(simulation_name: String, map: Node) -> void:
 
 
 func log_message(message: String) -> void:
-    print("[MegaLoot]: " + message)
+    print("[MegaLoot] " + message)
