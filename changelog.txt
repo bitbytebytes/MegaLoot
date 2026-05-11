@@ -1,3 +1,7 @@
+[1.0.2]
+- reverted to vanilla locked containers stay locked
+- made loot probability adjustments - even more loot!
+
 [1.0.1]
 - updated logging
 
